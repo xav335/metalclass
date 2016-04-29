@@ -35,7 +35,7 @@ define('DB_HOST', 'metalclaukuser.mysql.db');
 
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 
 /** Type de collation de la base de données.
