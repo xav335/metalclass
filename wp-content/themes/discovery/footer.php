@@ -20,8 +20,13 @@
 				<div class="col span_1_of_3">
 					<?php if ( is_active_sidebar( 'left_column' ) && dynamic_sidebar('left_column') ) : else : ?>
 						<div class="widget">
-							<?php echo '<h4>' . __('Widget Ready', 'discovery') . '</h4>'; ?>
-							<?php echo '<p>' . __('This left column is widget ready! Add one in the admin panel.', 'discovery') . '</p>'; ?>
+							<p>
+								ferronnerie d’art<br/>
+								fabrication de garde-corps<br/>
+								main courante<br/>
+								cloison atelier d’artiste<br/>
+								marquises
+							</p>
 						</div>     
 					<?php endif; ?>  
 				</div>
@@ -29,8 +34,13 @@
 				<div class="col span_1_of_3">
 					<?php if ( is_active_sidebar( 'center_column' ) && dynamic_sidebar('center_column') ) : else : ?>
 						<div class="widget">
-							<?php echo '<h4>' . __('Widget Ready', 'discovery') . '</h4>'; ?>
-							<?php echo '<p>' . __('This center column is widget ready! Add one in the admin panel.', 'discovery') . '</p>'; ?>
+							<p>
+								portails sur mesure<br/>
+								fabrication de portes<br/>
+								menuiseries métalliques<br/>
+								escaliers métalliques<br/>
+								grilles de défense
+							</p>
 						</div>     
 					<?php endif; ?> 
 				</div>
@@ -38,8 +48,13 @@
 				<div class="col span_1_of_3">
 					<?php if ( is_active_sidebar( 'right_column' ) && dynamic_sidebar('right_column') ) : else : ?>
 						<div class="widget">
-							<?php echo '<h4>' . __('Widget Ready', 'discovery') . '</h4>'; ?>
-							<?php echo '<p>' . __('This right column is widget ready! Add one in the admin panel.', 'discovery') . '</p>'; ?>
+							<p>
+								ferronnerie sur-mesure<br/>
+								travaux de soudure<br/>
+								travaux en fer forgé<br/>
+								travaux en inox<br/>
+								travaux en aluminium
+							</p>
 						</div>     
 					<?php endif; ?> 
 				</div>
